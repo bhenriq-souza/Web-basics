@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --light: #ffffff;
+  --dark: #000000;
+  --success: #228B22;
+  --danger: #DC143C;
+}
+
+main {
+  padding: 5rem;
+}
+
+/* loading */
+.loading {
+  padding: 0.5rem;
+  margin: 1.5rem 3rem;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  border: 10px solid var(--success);
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+  animation: rotation 2s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
