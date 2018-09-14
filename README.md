@@ -1,2 +1,2 @@
 # Web-basics
-Some web development features made with vanilla JS, for studies purposes.
+Some web development features made with vanilla HTML, CSS and JS, for studies purposes.
